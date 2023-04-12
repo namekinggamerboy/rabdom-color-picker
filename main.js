@@ -352,12 +352,13 @@ function setColor() {
     newColor = randomColor();
   }
   document.getElementById('test').style.background = newColor;
-  document.getElementById('color').innerHTML = newColor;
+  /* document.getElementById('color').innerHTML = newColor; */
 }
-
+/*
 function updateBanner(isMaterial) {
   if (isMaterial)
     document.getElementById("h3").innerHTML = "Material Color Generator";
   else
     document.getElementById("h3").innerHTML = "Random Color Generator";
 }
+*/
