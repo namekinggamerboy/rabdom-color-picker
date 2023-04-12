@@ -353,7 +353,7 @@ function setColor() {
   }
   var rainbow = document.getElementById('rainbow-color-picker');
    rainbow.style.background = newColor;
-   rainbow.style.color = invertColor(newColor, TextColorPicker(color, '#FFFFFF', '#000000')); 
+   rainbow.style.color = invertColor(newColor, TextColorPicker(newColor, '#FFFFFF', '#000000')); 
 
 }
 
