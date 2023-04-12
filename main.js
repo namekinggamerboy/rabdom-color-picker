@@ -352,7 +352,7 @@ function setColor() {
     newColor = randomColor();
   }
   document.getElementById('rainbow-background').style.background = newColor;
-  document.getElementById('rainbow-color').style.color = TextColorPicker(color, '#FFFFFF', '#000000'); 
+  document.getElementById('rainbow-color').style.color = invertColor(newColor, TextColorPicker(color, '#FFFFFF', '#000000')); 
 }
 
 function invertColor(hex, bw) {
