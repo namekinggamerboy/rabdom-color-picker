@@ -344,16 +344,17 @@ function randomColor() {
 }
 
 function setColor() {
-  var isMaterial = document.getElementById("check-box").checked;
+  var isMaterial = document.getElementById("rainbow-check-box").checked;
   var newColor;
   if (isMaterial) {
     newColor = materialColor();
   } else {
     newColor = randomColor();
   }
-  document.getElementById('test').style.background = newColor;
+  document.getElementById('rainbow-background').style.background = newColor;
   /* document.getElementById('color').innerHTML = newColor; */
 }
+
 /*
 function updateBanner(isMaterial) {
   if (isMaterial)
