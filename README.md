@@ -12,6 +12,7 @@ Add this 2 thinks
 ```js
 window.onload = function () {
   setColor();
+});
 ```
 
 Now add this input tag in last of your script
